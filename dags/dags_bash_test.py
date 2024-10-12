@@ -22,7 +22,7 @@ with DAG(
     )
 
     t1_test3 = BashOperator(
-        task_id = "t1_test2",
+        task_id = "t1_test3",
         bash_command="/opt/airflow/plugins/shell/bash_test.sh test3" #실행주체는 워커컨테이너라 경로 이렇게 지정해주기
     )
 
