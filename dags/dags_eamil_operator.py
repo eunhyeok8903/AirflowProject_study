@@ -3,6 +3,7 @@ import pendulum
 import datetime
 from airflow.operators.email import EmailOperator
 
+
 with DAG(
         dag_id="dags_email_operator",  # 웹 콘솔 DAGS탭에서 보이는 값
         schedule= "0 18 * * *",
